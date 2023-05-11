@@ -1,13 +1,17 @@
 <template>
-  <div class="bg-red-500">Hello World</div>
+  <div><BaseButton /></div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import BaseButton from "./components/buttons/BaseButton.vue";
 import "@/assets/tailwind.css";
 
 export default defineComponent({
   name: "App",
+  components: {
+    BaseButton,
+  },
 });
 </script>
 
