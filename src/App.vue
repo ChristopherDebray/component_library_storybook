@@ -1,5 +1,5 @@
 <template>
-  <div><BaseButton /></div>
+  <div><BaseButton button-color="red" /></div>
 </template>
 
 <script lang="ts">
